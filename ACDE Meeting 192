@@ -1,0 +1,25 @@
+Meeting Date/Time: July 18, 2024, 14:00-15:30 UTC
+Meeting Duration: 1 hour 33 minutes 
+Github Agenda 
+Audio/Video of the meeting:
+Moderator: Pooja Ranjan
+Notes: Emmanuel Eclipse 
+
+
+
+Agenda: Quick update from CTOAS team 
+Summary: Last week, the DevOps team focused on local testing with the CTOAS package. They encountered and resolved several small issues with various clients. While they have received images from all clients except for two, there are still problems with Prism (splitting at slot 32) and Aragon (splitting with the first block deposit requests).
+Agenda: EOF concerns
+Summary: The decision that It’s going into Petra is reinstated. Though concerns were raised about including Geth's neutrality, the need for extensive testing and security by its proponents, the possibility of reconsidering its inclusion in the fork if unresolved bugs persist close to release, and the importance of civil, collaborative efforts to ensure safety and readiness.
+
+Agenda:  Account Abstraction Proposal (7702) and Code Reset
+Summary: The agenda covered the Account Abstraction Proposal (7702) and Code Reset, with Ankitchinplunkar proposing a new account type that combines smart contract code and EOA private keys, raising concerns about DoS attacks and security bypass; Julian Rachman suggested an alternative with ephemeral delegation, Ansgar critiqued the code reset as overly complex, Pedro questioned the value of ephemeral accounts, and Lightclient advocated for simplicity, with the current approach focusing on testing and refining via Devnets.
+
+Adding logs to system contracts
+Summary: LightClient noted a PR for adding logs to system contracts, agreed upon in a previous All Core Devs meeting, which would involve triggering events when users submit to the queue, and the moderator suggested an asynchronous review to merge the changes before the next Core Devs call for a more focused discussion.
+
+EIP-7742: Uncouple blob count between CL and EL
+Summary: The decision was made to have the teams review it next week since it’s a fairly new proposal. 
+
+RIP/EIP-7212
+Summary: The discussion on RIP/EIP 7212 focused on its potential integration into Ethereum's Layer 1, emphasizing its benefits for account abstraction, ENS, and rollups, while noting the need for further review and consideration due to the existing workload on other proposals and concerns about the cost-effectiveness of precompile options.
